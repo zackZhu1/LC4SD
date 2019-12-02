@@ -19,3 +19,6 @@ class Solution {
         return A[left] == left ? left : -1;
     }
 }
+
+// if A[mid] < mid, prove A[mid - 1] < mid - 1
+// A[mid - 1] <= A[mid] - 1 < mid - 1 < mid
